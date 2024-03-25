@@ -69,7 +69,8 @@ function StickyHeadTable({ getTimeLabel, products }) {
 
 	// Function to handle the addition of a new product (you will need to implement this)
 	const handleAddProduct = () => {
-		// Your logic to handle adding a new product
+		// redirect to the product new page
+		window.location.href = "/products/new";
 	};
 
 	return (

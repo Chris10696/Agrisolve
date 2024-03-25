@@ -136,7 +136,11 @@ const SidebarPages = ({
 							loading ? (
 								<LoadingFallback />
 							) : (
-								<Reports user={user} getTimeLabel={getTimeLabel} />
+								<Reports
+									user={user}
+									getTimeLabel={getTimeLabel}
+									products={products}
+								/>
 							)
 						}
 					/>

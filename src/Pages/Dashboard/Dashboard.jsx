@@ -16,7 +16,6 @@ const Dashboard = ({
 	getProduct,
 	earnings,
 }) => {
-	console.log(users);
 	return (
 		<div className="Dashboard">
 			<DashTop user={user} />
